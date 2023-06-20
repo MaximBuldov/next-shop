@@ -10,7 +10,6 @@ interface OrdersPageProps {
 }
 
 const OrdersPage: NextPage<OrdersPageProps> = ({ orders }) => {
-  console.log(orders)
   return (
     <MainLayout title='Orders'>
       <div className="container">

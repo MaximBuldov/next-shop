@@ -39,7 +39,6 @@ export default function Product({ product }: { product: IProduct }) {
   }
 
   const addTocart = () => {
-    console.log(selectedVariation)
     cartStore.addToCart({
       product_id: id,
       variation_id: selectedVariation ? Number(selectedVariation?.id) : varArr[0],
